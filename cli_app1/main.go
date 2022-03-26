@@ -12,7 +12,7 @@ func main() {
 	cmd := exec.Command("clear")
 	cmd.Stdout = os.Stdout
 	cmd.Run()
-	fmt.Println("IP             Site")
+	fmt.Println("--- --- --- ---- --- --- ")
 
 	aplicacao := app.Gerar()
 	if erro := aplicacao.Run(os.Args); erro != nil {
