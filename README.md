@@ -8,3 +8,10 @@
 
 ❯ go mod init github.com/treinalinux/algoritmo-golang
 ```
+
+## Test
+
+
+```
+go test ./...
+```
